@@ -1,0 +1,29 @@
+﻿ffmpegWithOpenglPlayVideo1.obj : error LNK2019: 无法解析的外部符号 "void * __cdecl av_malloc(unsigned int)" (?av_malloc@@YAPAXI@Z)，该符号在函数 _main 中被引用
+ffmpegWithOpenglPlayVideo1.obj : error LNK2019: 无法解析的外部符号 "void __cdecl av_free(void *)" (?av_free@@YAXPAX@Z)，该符号在函数 "void __cdecl clearAppData(struct AppData *)" (?clearAppData@@YAXPAUAppData@@@Z) 中被引用
+ffmpegWithOpenglPlayVideo1.obj : error LNK2019: 无法解析的外部符号 "struct SwsContext * __cdecl sws_getContext(int,int,enum AVPixelFormat,int,int,enum AVPixelFormat,int,struct SwsFilter *,struct SwsFilter *,double const *)" (?sws_getContext@@YAPAUSwsContext@@HHW4AVPixelFormat@@HH0HPAUSwsFilter@@1PBN@Z)，该符号在函数 "bool __cdecl readFrame(struct AppData *)" (?readFrame@@YA_NPAUAppData@@@Z) 中被引用
+ffmpegWithOpenglPlayVideo1.obj : error LNK2019: 无法解析的外部符号 "int __cdecl sws_scale(struct SwsContext *,unsigned char const * const * const,int const * const,int,int,unsigned char * const * const,int const * const)" (?sws_scale@@YAHPAUSwsContext@@QBQBEQBHHHQBQAE2@Z)，该符号在函数 "bool __cdecl readFrame(struct AppData *)" (?readFrame@@YA_NPAUAppData@@@Z) 中被引用
+ffmpegWithOpenglPlayVideo1.obj : error LNK2019: 无法解析的外部符号 "struct AVFrame * __cdecl av_frame_alloc(void)" (?av_frame_alloc@@YAPAUAVFrame@@XZ)，该符号在函数 _main 中被引用
+ffmpegWithOpenglPlayVideo1.obj : error LNK2019: 无法解析的外部符号 "int __cdecl avcodec_open2(struct AVCodecContext *,struct AVCodec const *,struct AVDictionary * *)" (?avcodec_open2@@YAHPAUAVCodecContext@@PBUAVCodec@@PAPAUAVDictionary@@@Z)，该符号在函数 _main 中被引用
+ffmpegWithOpenglPlayVideo1.obj : error LNK2019: 无法解析的外部符号 "int __cdecl avcodec_close(struct AVCodecContext *)" (?avcodec_close@@YAHPAUAVCodecContext@@@Z)，该符号在函数 "void __cdecl clearAppData(struct AppData *)" (?clearAppData@@YAXPAUAppData@@@Z) 中被引用
+ffmpegWithOpenglPlayVideo1.obj : error LNK2019: 无法解析的外部符号 "void __cdecl av_free_packet(struct AVPacket *)" (?av_free_packet@@YAXPAUAVPacket@@@Z)，该符号在函数 "bool __cdecl readFrame(struct AppData *)" (?readFrame@@YA_NPAUAppData@@@Z) 中被引用
+ffmpegWithOpenglPlayVideo1.obj : error LNK2019: 无法解析的外部符号 "struct AVCodec * __cdecl avcodec_find_decoder(enum AVCodecID)" (?avcodec_find_decoder@@YAPAUAVCodec@@W4AVCodecID@@@Z)，该符号在函数 _main 中被引用
+ffmpegWithOpenglPlayVideo1.obj : error LNK2019: 无法解析的外部符号 "int __cdecl avcodec_decode_video2(struct AVCodecContext *,struct AVFrame *,int *,struct AVPacket const *)" (?avcodec_decode_video2@@YAHPAUAVCodecContext@@PAUAVFrame@@PAHPBUAVPacket@@@Z)，该符号在函数 "bool __cdecl readFrame(struct AppData *)" (?readFrame@@YA_NPAUAppData@@@Z) 中被引用
+ffmpegWithOpenglPlayVideo1.obj : error LNK2019: 无法解析的外部符号 "int __cdecl avpicture_fill(struct AVPicture *,unsigned char const *,enum AVPixelFormat,int,int)" (?avpicture_fill@@YAHPAUAVPicture@@PBEW4AVPixelFormat@@HH@Z)，该符号在函数 _main 中被引用
+ffmpegWithOpenglPlayVideo1.obj : error LNK2019: 无法解析的外部符号 "int __cdecl avpicture_get_size(enum AVPixelFormat,int,int)" (?avpicture_get_size@@YAHW4AVPixelFormat@@HH@Z)，该符号在函数 _main 中被引用
+ffmpegWithOpenglPlayVideo1.obj : error LNK2019: 无法解析的外部符号 "void __cdecl av_register_all(void)" (?av_register_all@@YAXXZ)，该符号在函数 _main 中被引用
+ffmpegWithOpenglPlayVideo1.obj : error LNK2019: 无法解析的外部符号 "int __cdecl avformat_network_init(void)" (?avformat_network_init@@YAHXZ)，该符号在函数 _main 中被引用
+ffmpegWithOpenglPlayVideo1.obj : error LNK2019: 无法解析的外部符号 "void __cdecl avformat_free_context(struct AVFormatContext *)" (?avformat_free_context@@YAXPAUAVFormatContext@@@Z)，该符号在函数 "void __cdecl clearAppData(struct AppData *)" (?clearAppData@@YAXPAUAppData@@@Z) 中被引用
+ffmpegWithOpenglPlayVideo1.obj : error LNK2019: 无法解析的外部符号 "int __cdecl avformat_open_input(struct AVFormatContext * *,char const *,struct AVInputFormat *,struct AVDictionary * *)" (?avformat_open_input@@YAHPAPAUAVFormatContext@@PBDPAUAVInputFormat@@PAPAUAVDictionary@@@Z)，该符号在函数 _main 中被引用
+ffmpegWithOpenglPlayVideo1.obj : error LNK2019: 无法解析的外部符号 "int __cdecl avformat_find_stream_info(struct AVFormatContext *,struct AVDictionary * *)" (?avformat_find_stream_info@@YAHPAUAVFormatContext@@PAPAUAVDictionary@@@Z)，该符号在函数 _main 中被引用
+ffmpegWithOpenglPlayVideo1.obj : error LNK2019: 无法解析的外部符号 "int __cdecl av_read_frame(struct AVFormatContext *,struct AVPacket *)" (?av_read_frame@@YAHPAUAVFormatContext@@PAUAVPacket@@@Z)，该符号在函数 "bool __cdecl readFrame(struct AppData *)" (?readFrame@@YA_NPAUAppData@@@Z) 中被引用
+ffmpegWithOpenglPlayVideo1.obj : error LNK2019: 无法解析的外部符号 "void __cdecl avformat_close_input(struct AVFormatContext * *)" (?avformat_close_input@@YAXPAPAUAVFormatContext@@@Z)，该符号在函数 _main 中被引用
+ffmpegWithOpenglPlayVideo1.obj : error LNK2019: 无法解析的外部符号 "void __cdecl av_dump_format(struct AVFormatContext *,int,char const *,int)" (?av_dump_format@@YAXPAUAVFormatContext@@HPBDH@Z)，该符号在函数 _main 中被引用
+F:\software\vs2015_workplace\shipinronghe\videoGlplay\videoGlplay\shared\ffmpeg\lib\avcodec.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+F:\software\vs2015_workplace\shipinronghe\videoGlplay\videoGlplay\shared\ffmpeg\lib\avdevice.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+F:\software\vs2015_workplace\shipinronghe\videoGlplay\videoGlplay\shared\ffmpeg\lib\avfilter.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+F:\software\vs2015_workplace\shipinronghe\videoGlplay\videoGlplay\shared\ffmpeg\lib\avformat.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+F:\software\vs2015_workplace\shipinronghe\videoGlplay\videoGlplay\shared\ffmpeg\lib\avutil.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+F:\software\vs2015_workplace\shipinronghe\videoGlplay\videoGlplay\shared\ffmpeg\lib\postproc.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+F:\software\vs2015_workplace\shipinronghe\videoGlplay\videoGlplay\shared\ffmpeg\lib\swresample.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+F:\software\vs2015_workplace\shipinronghe\videoGlplay\videoGlplay\shared\ffmpeg\lib\swscale.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+F:\software\vs2015_workplace\shipinronghe\videoGlplay\Debug\videoGlplay.exe : fatal error LNK1120: 20 个无法解析的外部命令

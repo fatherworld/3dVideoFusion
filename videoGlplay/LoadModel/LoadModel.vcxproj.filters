@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ShaderSource">
+      <UniqueIdentifier>{8d3a103a-8835-439e-838f-be2346f9459c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Shader">
+      <UniqueIdentifier>{a9d97f7f-636f-40e4-86fe-3fecf8ce41b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Models">
+      <UniqueIdentifier>{2f54eefe-543f-49c3-9154-b85c931787ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{68d4e800-838a-4a03-b762-87a14ab0f347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\VideoGL">
+      <UniqueIdentifier>{dddfd9ab-ac84-41f5-9f8a-1fa74954702b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ShaderSource\shader.fs">
+      <Filter>ShaderSource</Filter>
+    </None>
+    <None Include="ShaderSource\shader.vs">
+      <Filter>ShaderSource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Models\Mesh.cpp">
+      <Filter>头文件\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Model.cpp">
+      <Filter>头文件\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\Shader.cpp">
+      <Filter>头文件\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="common\glad.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="videogl.cpp">
+      <Filter>头文件\VideoGL</Filter>
+    </ClCompile>
+    <ClCompile Include="common\controls.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Models\Camera.h">
+      <Filter>头文件\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Mesh.h">
+      <Filter>头文件\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Model.h">
+      <Filter>头文件\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Shader.h">
+      <Filter>头文件\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="common\stb_image.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="videogl.h">
+      <Filter>头文件\VideoGL</Filter>
+    </ClInclude>
+    <ClInclude Include="common\controls.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
